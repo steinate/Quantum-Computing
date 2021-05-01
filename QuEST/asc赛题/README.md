@@ -43,11 +43,15 @@ First, should compile and install QuEST, referring to the following steps:
 
     ➢ The QuEST is most easily downloaded by using apt, git and GNU make, which can be
    obtained with “sudo apt install git make (Ubuntu) or yum install git make (Redhat)”.
+   
     ➢ Downloaded it to the current directory (path/ to/QuEST) with “git clone
    https://github.com/QuEST-Kit/QuEST.git”.
+   
     ➢ Or you can directly download the compressed file of QuEST (.tar.gz) at
    https://github.com/QuEST-Kit/QuEST/releases.  
+   
 2. Download the necessary QuEST associated files
+
    Three necessary files, including the mytimer.hpp, random.c and GHZ_QFT.c, are provided
    and can be downloaded through Baidu SkyDrive or Microsoft OneDrive, similar with the
    Language exam (LE) challenge listed above. In this challenge, two workloads should be
@@ -55,6 +59,7 @@ First, should compile and install QuEST, referring to the following steps:
    source code of QuEST will be used, and for the other workload named GHZ_QFT, the
    mytimer.hpp, GHZ_QFT.c and the source code of QuEST will be used. Due to the independence 
    of the two workloads, QuEST should be installed separately for each workload.  
+   
 3. Install QuEST and run the challenge tests
    For the workload named random circuit:
    “cp random.c tutorial_example.c”
