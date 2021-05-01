@@ -40,6 +40,7 @@ instructions below:
 First, should compile and install QuEST, referring to the following steps:
 
 1. Download the source code of QuEST
+
     ➢ The QuEST is most easily downloaded by using apt, git and GNU make, which can be
    obtained with “sudo apt install git make (Ubuntu) or yum install git make (Redhat)”.
     ➢ Downloaded it to the current directory (path/ to/QuEST) with “git clone
