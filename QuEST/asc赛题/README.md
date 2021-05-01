@@ -52,7 +52,8 @@ First, should compile and install QuEST, referring to the following steps:
    Language exam (LE) challenge listed above. In this challenge, two workloads should be
    completed: for the first workload named random circuit, mytimer.hpp, random.c and the
    source code of QuEST will be used, and for the other workload named GHZ_QFT, the
-   mytimer.hpp, GHZ_QFT.c and the source code of QuEST will be used. Due to the independence of the two workloads, QuEST should be installed separately for each workload.  
+   mytimer.hpp, GHZ_QFT.c and the source code of QuEST will be used. Due to the independence 
+   of the two workloads, QuEST should be installed separately for each workload.  
 3. Install QuEST and run the challenge tests
    For the workload named random circuit:
    “cp random.c tutorial_example.c”
