@@ -54,9 +54,9 @@ First, should compile and install QuEST, referring to the following steps:
    source code of QuEST will be used, and for the other workload named GHZ_QFT, the
    mytimer.hpp, GHZ_QFT.c and the source code of QuEST will be used. Due to the independence 
    of the two workloads, QuEST should be installed separately for each workload.  
-3. Install QuEST and run the challenge tests
-   For the workload named random circuit:
-   “cp random.c tutorial_example.c”
+3. Install QuEST and run the challenge tests\\
+   For the workload named random circuit:\\
+   “cp random.c tutorial_example.c”\\
    “cd build”
    “cmake ..”
    “make –j4”
@@ -67,5 +67,3 @@ First, should compile and install QuEST, referring to the following steps:
    The second workload (GHZ_QFT.c) can be installed in the same way mentioned above,
    except for “cp GHC_QHF.c tutorial_example.c” (instead of “cp random.c
    tutorial_example.c”).  
-
-<img src="C:\Users\pjq\AppData\Roaming\Typora\typora-user-images\image-20210501104118471.png" alt="image-20210501104118471" style="zoom:80%;" />
