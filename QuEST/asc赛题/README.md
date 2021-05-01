@@ -61,15 +61,23 @@ First, should compile and install QuEST, referring to the following steps:
    of the two workloads, QuEST should be installed separately for each workload.  
    
 3. Install QuEST and run the challenge tests
+
    For the workload named random circuit:
+   
    “cp random.c tutorial_example.c”
+   
    “cd build”
+   
    “cmake ..”
+   
    “make –j4”
+   
    “./demo”
+   
    Note that this is just an example to show how to install and run the tests. The participants
    can compile the code by using their optimizing strategies or run the test with MPI or
    OpenMP.
+   
    The second workload (GHZ_QFT.c) can be installed in the same way mentioned above,
    except for “cp GHC_QHF.c tutorial_example.c” (instead of “cp random.c
    tutorial_example.c”).  
